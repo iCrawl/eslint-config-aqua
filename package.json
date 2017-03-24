@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-aqua",
+  "version": "0.1.0",
+  "description": "ESLint shareable config for XO",
+  "license": "MIT",
+  "author": {
+    "name": "Crawl",
+    "email": "icrawltogo@gmail.com"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iCrawl/eslint-config-aqua.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iCrawl/eslint-config-aqua/issues"
+  },
+  "keywords": [
+    "eslintconfig",
+    "xo",
+    "xoxo",
+    "lint",
+    "linter",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate"
+  ],
+  "homepage": "https://github.com/iCrawl/eslint-config-aqua#readme",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "eslint": "^3.18.0",
+    "xo": "^0.18.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.18.0"
+  },
+  "xo": {
+    "extends": "eslint-config-aqua"
+  },
+  "engines": {
+    "node": ">=7"
+  }
+}
