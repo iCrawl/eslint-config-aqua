@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-aqua",
   "version": "1.0.0",
-  "description": "ESLint shareable config for XO",
+  "description": "ESLint shareable config",
   "license": "MIT",
   "author": {
     "name": "Crawl",
