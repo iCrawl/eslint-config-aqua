@@ -8,7 +8,7 @@
     "email": "icrawltogo@gmail.com"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "eslint . silent"
   },
   "repository": {
     "type": "git",
@@ -30,15 +30,13 @@
   ],
   "homepage": "https://github.com/iCrawl/eslint-config-aqua#readme",
   "devDependencies": {
-    "ava": "^0.18.2",
-    "eslint": "^3.18.0",
-    "xo": "^0.18.0"
+    "eslint": "^3.18.0"
   },
   "peerDependencies": {
     "eslint": "^3.18.0"
   },
-  "xo": {
-    "extends": "eslint-config-aqua"
+  "eslintConfig": {
+    "extends": "aqua"
   },
   "engines": {
     "node": ">=7"
