@@ -7,4 +7,7 @@ cache:
     - node_modules
 before_install:
   - npm explore npm -g -- npm install node-gyp@latest
-install: npm install
+install:
+  - npm install
+  - npm link
+  - npm link eslint-config-aqua
