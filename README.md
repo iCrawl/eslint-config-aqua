@@ -47,7 +47,7 @@ And [`aqua/browser`](browser.js) if you're in the browser:
 
 ## Author
 
-**eslint-config-aqua** © [iCrawl](https://github.com/iCrawl), Released under the [MIT](https://github.com/iCrawl/akiko/blob/master/LICENSE) License.<br>
+**eslint-config-aqua** © [iCrawl](https://github.com/iCrawl), Released under the [MIT](https://github.com/iCrawl/eslint-config-aqua/blob/master/LICENSE) License.<br>
 Authored and maintained by iCrawl.
 
 > GitHub [@iCrawl](https://github.com/iCrawl) · Twitter [@iCrawlToGo](https://twitter.com/iCrawlToGo)
