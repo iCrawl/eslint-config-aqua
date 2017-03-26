@@ -1,6 +1,16 @@
 # eslint-config-aqua
-
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html)
+
+<div align="center">
+	<p>
+		<a href="https://www.npmjs.com/package/eslint-config-aqua"><img src="https://img.shields.io/npm/v/eslint-config-aqua.svg?maxAge=3600" alt="NPM version" /></a>
+		<a href="https://www.npmjs.com/package/eslint-config-aqua"><img src="https://img.shields.io/npm/dt/eslint-config-aqua.svg?maxAge=3600" alt="NPM downloads" /></a>
+		<a href="https://david-dm.org/iCrawl/eslint-config-aqua"><img src="https://david-dm.org/iCrawl/eslint-config-aqua/status.svg?maxAge=3600" alt="Dependencies" /></a>
+	</p>
+	<p>
+		<a href="https://nodei.co/npm/eslint-config-aqua/"><img src="https://nodei.co/npm/eslint-config-aqua.png?downloads=true&stars=true" alt="NPM info" /></a>
+	</p>
+</div>
 
 ## Install
 
