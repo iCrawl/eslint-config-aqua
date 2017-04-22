@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-aqua",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "ESLint shareable config",
   "license": "MIT",
   "author": {
@@ -19,8 +19,6 @@
   },
   "keywords": [
     "eslintconfig",
-    "xo",
-    "xoxo",
     "lint",
     "linter",
     "jshint",
@@ -30,15 +28,15 @@
   ],
   "homepage": "https://github.com/iCrawl/eslint-config-aqua#readme",
   "devDependencies": {
-    "eslint": "^3.18.0"
+    "eslint": "^3.19.0"
   },
   "peerDependencies": {
-    "eslint": "^3.18.0"
+    "eslint": "^3.19.0"
   },
   "eslintConfig": {
     "extends": "aqua"
   },
   "engines": {
-    "node": ">=7"
+    "node": ">=6"
   }
 }
