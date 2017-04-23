@@ -2,11 +2,11 @@
   "name": "eslint-config-aqua",
   "version": "1.2.0",
   "description": "ESLint shareable config",
-  "license": "MIT",
   "author": {
     "name": "Crawl",
     "email": "icrawltogo@gmail.com"
   },
+  "license": "MIT",
   "scripts": {
     "test": "eslint . silent"
   },
