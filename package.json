@@ -2,6 +2,7 @@
   "name": "eslint-config-aqua",
   "version": "1.4.1",
   "description": "ESLint shareable config",
+  "main": "index.js",
   "author": {
     "name": "Crawl",
     "email": "icrawltogo@gmail.com"
@@ -34,7 +35,7 @@
     "eslint": "^4.0.0"
   },
   "eslintConfig": {
-    "extends": "aqua"
+    "extends": "./index.js"
   },
   "engines": {
     "node": ">=6"
