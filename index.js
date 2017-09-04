@@ -64,7 +64,16 @@ module.exports = {
 		'no-void': 'error',
 		'no-warning-comments': 'warn',
 		'object-shorthand': ['error', 'always'],
-		'prefer-destructuring': ['error', { object: true, array: false }],
+		'prefer-destructuring': ['error', {
+			VariableDeclarator: {
+				array: false,
+				object: true
+			},
+			AssignmentExpression: {
+				array: true,
+				object: false
+			}
+		}],
 		'prefer-promise-reject-errors': 'error',
 		'require-await': 'warn',
 		'wrap-iife': 'error',
