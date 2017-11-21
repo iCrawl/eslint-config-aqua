@@ -1,43 +1,43 @@
 {
-  "name": "eslint-config-aqua",
-  "version": "2.0.2",
-  "description": "ESLint shareable config",
-  "main": "index.js",
-  "author": {
-    "name": "iCrawl",
-    "email": "icrawltogo@gmail.com"
-  },
-  "license": "MIT",
-  "scripts": {
-    "test": "eslint . silent"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iCrawl/eslint-config-aqua.git"
-  },
-  "bugs": {
-    "url": "https://github.com/iCrawl/eslint-config-aqua/issues"
-  },
-  "keywords": [
-    "eslintconfig",
-    "lint",
-    "linter",
-    "jshint",
-    "jslint",
-    "eslint",
-    "validate"
-  ],
-  "homepage": "https://github.com/iCrawl/eslint-config-aqua#readme",
-  "devDependencies": {
-    "eslint": "^4.0.0"
-  },
-  "peerDependencies": {
-    "eslint": "^4.0.0"
-  },
-  "eslintConfig": {
-    "extends": "./index.js"
-  },
-  "engines": {
-    "node": ">=6"
-  }
+	"name": "eslint-config-aqua",
+	"version": "2.0.2",
+	"description": "ESLint shareable config",
+	"main": "index.js",
+	"author": {
+		"name": "iCrawl",
+		"email": "icrawltogo@gmail.com"
+	},
+	"license": "MIT",
+	"scripts": {
+		"test": "eslint . silent"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iCrawl/eslint-config-aqua.git"
+	},
+	"bugs": {
+		"url": "https://github.com/iCrawl/eslint-config-aqua/issues"
+	},
+	"keywords": [
+		"eslintconfig",
+		"lint",
+		"linter",
+		"jshint",
+		"jslint",
+		"eslint",
+		"validate"
+	],
+	"homepage": "https://github.com/iCrawl/eslint-config-aqua#readme",
+	"devDependencies": {
+		"eslint": "^4.11.0"
+	},
+	"peerDependencies": {
+		"eslint": "^4.0.0"
+	},
+	"eslintConfig": {
+		"extends": "./index.js"
+	},
+	"engines": {
+		"node": ">=6"
+	}
 }
