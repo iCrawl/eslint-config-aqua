@@ -29,7 +29,7 @@
 	],
 	"homepage": "https://github.com/iCrawl/eslint-config-aqua#readme",
 	"devDependencies": {
-		"eslint": "^4.11.0"
+		"eslint": "^4.19.1"
 	},
 	"peerDependencies": {
 		"eslint": "^4.0.0"
