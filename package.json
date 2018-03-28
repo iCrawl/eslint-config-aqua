@@ -41,7 +41,7 @@
 		"extends": "./src/aqua.js"
 	},
 	"lint-staged": {
-		"*.js": ["eslint src", "git add"]
+		"src/*.js": ["eslint src", "git add"]
 	},
 	"engines": {
 		"node": ">=6"
