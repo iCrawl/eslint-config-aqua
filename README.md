@@ -40,6 +40,28 @@ Or to `eslintrc.js` or `eslintrc.json`:
 }
 ```
 
+# Node development
+
+If you are developing with node.js consider adding:
+
+```json
+{
+	"extends": "aqua",
+	"env": {
+		"es6": true,
+		"node": true
+	}
+}
+```
+
+or use the somewhat stricter setup (my own) with:
+
+```json
+{
+	"extends": "aqua/node"
+}
+```
+
 ## Contributing
 
 1. Fork it!

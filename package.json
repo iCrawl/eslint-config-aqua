@@ -38,7 +38,7 @@
 		"eslint": "^4.0.0"
 	},
 	"eslintConfig": {
-		"extends": "./src/aqua.js"
+		"extends": "./src/node.js"
 	},
 	"lint-staged": {
 		"src/*.js": ["eslint src", "git add"]
