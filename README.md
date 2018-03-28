@@ -15,7 +15,7 @@
 ## Install
 
 ```bash
-yarn add -D eslint-config-aqua
+yarn add -D eslint-config-aqua@next
 ```
 
 ## Usage
