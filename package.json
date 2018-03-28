@@ -10,7 +10,7 @@
 	"license": "MIT",
 	"scripts": {
 		"git-pre-commit": "lint-staged",
-		"test": "eslint src"
+		"lint": "eslint src"
 	},
 	"repository": {
 		"type": "git",
