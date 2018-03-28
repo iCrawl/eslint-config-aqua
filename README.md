@@ -15,7 +15,7 @@
 ## Install
 
 ```bash
-npm install --save-dev eslint-config-aqua
+yarn add -D eslint-config-aqua
 ```
 
 ## Usage
@@ -25,25 +25,18 @@ Add the ESLint config to your `package.json`:
 ```json
 {
 	"name": "my-project",
+	...
 	"eslintConfig": {
 		"extends": "aqua"
 	}
 }
 ```
 
-Or to `.eslintrc`:
+Or to `eslintrc.js` or `eslintrc.json`:
 
 ```json
 {
 	"extends": "aqua"
-}
-```
-
-And [`aqua/browser`](browser.js) if you're in the browser:
-
-```json
-{
-	"extends": "aqua/browser"
 }
 ```
 
