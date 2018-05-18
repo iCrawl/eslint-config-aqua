@@ -106,11 +106,11 @@ module.exports = {
 		'key-spacing': 'error',
 		'keyword-spacing': ['error', {
 			overrides: {
-				if: { after: true },
-				for: { after: true },
-				while: { after: true },
-				catch: { after: true },
-				switch: { after: true }
+				'if': { after: true },
+				'for': { after: true },
+				'while': { after: true },
+				'catch': { after: true },
+				'switch': { after: true }
 			}
 		}],
 		'max-depth': 'error',
