@@ -15,7 +15,7 @@
 ## Install
 
 ```bash
-yarn add -D eslint-config-aqua@next
+yarn add -D eslint-config-aqua
 ```
 
 ## Usage
@@ -40,26 +40,39 @@ Or to `eslintrc.js` or `eslintrc.json`:
 }
 ```
 
-# Node development
+# Targets
 
-If you are developing with node.js consider adding:
+If you are developing with Javascript consider adding:
 
 ```json
 {
 	"extends": "aqua",
 	"env": {
-		"es6": true,
-		"node": true
+		"browser": true
 	}
 }
 ```
 
-or use the somewhat stricter setup (my own) with:
+or use the platform specific configs for Node.js:
 
 ```json
 {
 	"extends": "aqua/node"
 }
+```
+
+or Vue.js:
+
+```json
+{
+	"extends": "aqua/vue"
+}
+```
+
+Using the vue extended config will require you to additionally install `eslint-plugin-vue` and `babel-eslint`
+
+```bash
+yarn add -D babel-eslint eslint-plugin-vue
 ```
 
 ## Contributing
