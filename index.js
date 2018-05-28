@@ -148,7 +148,7 @@ const base = {
 	'id-blacklist': 0,
 	'id-length': 0,
 	'id-match': 0,
-	'indent': ['error', 'tab', { SwitchCase: 0 }],
+	'indent': ['error', 'tab', { SwitchCase: 1 }],
 	'jsx-quotes': ['error', 'prefer-double'],
 	'key-spacing': ['error', { beforeColon: false, afterColon: true, mode: 'strict' }],
 	'keyword-spacing': ['error', { before: true, after: true }],
