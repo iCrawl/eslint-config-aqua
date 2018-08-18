@@ -13,7 +13,7 @@ module.exports = {
 		browser: true
 	},
 	'rules': {
-		'vue/html-ident': ['error', 'tab'],
+		'vue/html-indent': ['error', 'tab'],
 		'vue/max-attributes-per-line': [2, {
 			singleline: 1,
 			multiline: {
