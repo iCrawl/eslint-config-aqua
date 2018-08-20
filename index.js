@@ -250,10 +250,7 @@ const base = {
 
 module.exports = {
 	parserOptions: {
-		ecmaVersion: 2018,
-		ecmaFeatures: {
-			experimentalObjectRestSpread: true
-		}
+		ecmaVersion: 2018
 	},
 	rules: Object.assign(base, {})
 };
