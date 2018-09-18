@@ -18,8 +18,12 @@ module.exports = {
 			singleline: 1,
 			multiline: {
 				max: 1,
-				allowFirstline: true
+				allowFirstLine: true
 			}
+		}],
+		'vue/html-closing-bracket-newline': ['error', {
+			singleline: 'never',
+			multiline: 'never'
 		}],
 		'vue/attributes-hyphenation': 0
 	}
