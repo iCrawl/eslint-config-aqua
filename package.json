@@ -32,7 +32,7 @@
 	"devDependencies": {
 		"@zeit/git-hooks": "^0.1.4",
 		"eslint": "^5.6.0",
-		"lint-staged": "^7.2.2"
+		"lint-staged": "^8.0.4"
 	},
 	"peerDependencies": {
 		"babel-eslint": "^9.0.0",
