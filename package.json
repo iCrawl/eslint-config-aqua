@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-aqua",
-	"version": "4.4.1",
+	"version": "5.0.0",
 	"description": "ESLint shareable config",
 	"main": "index.js",
 	"author": {
@@ -9,7 +9,6 @@
 	},
 	"license": "MIT",
 	"scripts": {
-		"git-pre-commit": "lint-staged",
 		"lint": "eslint *.js"
 	},
 	"repository": {
@@ -30,9 +29,7 @@
 	],
 	"homepage": "https://github.com/iCrawl/eslint-config-aqua#readme",
 	"devDependencies": {
-		"@zeit/git-hooks": "^0.1.4",
-		"eslint": "^5.6.0",
-		"lint-staged": "^8.0.4"
+		"eslint": "^5.6.0"
 	},
 	"peerDependencies": {
 		"babel-eslint": "^9.0.0",
@@ -41,12 +38,6 @@
 	},
 	"eslintConfig": {
 		"extends": "./node.js"
-	},
-	"lint-staged": {
-		"src/*.js": [
-			"eslint *.js",
-			"git add"
-		]
 	},
 	"engines": {
 		"node": ">=6"
