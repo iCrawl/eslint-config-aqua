@@ -14,13 +14,7 @@ module.exports = {
 	},
 	'rules': {
 		'vue/html-indent': ['error', 'tab'],
-		'vue/max-attributes-per-line': [2, {
-			singleline: 1,
-			multiline: {
-				max: 1,
-				allowFirstLine: true
-			}
-		}],
+		'vue/max-attributes-per-line': 0,
 		'vue/html-closing-bracket-newline': ['error', {
 			singleline: 'never',
 			multiline: 'never'
