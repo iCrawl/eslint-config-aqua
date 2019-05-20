@@ -109,7 +109,7 @@ const base = {
 	'no-delete-var': 'error',
 	'no-label-var': 'error',
 	'no-restricted-globals': 0,
-	'no-shadow': 'warn',
+	'no-shadow': 0,
 	'no-shadow-restricted-names': 'error',
 	'no-undef': 'error',
 	'no-undef-init': 0,
