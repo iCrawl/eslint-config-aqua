@@ -29,11 +29,11 @@
 	],
 	"homepage": "https://github.com/iCrawl/eslint-config-aqua#readme",
 	"devDependencies": {
-		"eslint": "^6.0.1"
+		"eslint": "^6.1.0"
 	},
 	"peerDependencies": {
 		"babel-eslint": "^10.0.2",
-		"eslint": "^6.0.1",
+		"eslint": "^6.1.0",
 		"eslint-plugin-vue": "^5.2.3"
 	},
 	"eslintConfig": {
