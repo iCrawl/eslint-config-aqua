@@ -43,6 +43,6 @@
 		"extends": "./prettier/node.js"
 	},
 	"engines": {
-		"node": ">=6"
+		"node": ">=8"
 	}
 }
