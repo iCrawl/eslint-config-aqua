@@ -29,15 +29,18 @@
 	],
 	"homepage": "https://github.com/iCrawl/eslint-config-aqua#readme",
 	"devDependencies": {
-		"eslint": "^6.1.0"
+		"eslint": "^6.4.0",
+		"eslint-config-prettier": "^6.3.0",
+		"eslint-plugin-prettier": "^3.1.0",
+		"prettier": "^1.18.2"
 	},
 	"peerDependencies": {
-		"babel-eslint": "^10.0.2",
-		"eslint": "^6.1.0",
+		"babel-eslint": "^10.0.3",
+		"eslint": "^6.4.0",
 		"eslint-plugin-vue": "^5.2.3"
 	},
 	"eslintConfig": {
-		"extends": "./node.js"
+		"extends": "./prettier/node.js"
 	},
 	"engines": {
 		"node": ">=6"
