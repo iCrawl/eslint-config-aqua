@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-aqua",
-	"version": "7.0.1",
+	"version": "7.1.0",
 	"description": "ESLint shareable config",
 	"main": "index.js",
 	"author": {
