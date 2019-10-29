@@ -2,7 +2,7 @@ module.exports = {
 	extends: ['plugin:prettier/recommended'],
 	rules: {
 		'prettier/prettier': [
-			'error',
+			1,
 			{
 				printWidth: 120,
 				useTabs: true,

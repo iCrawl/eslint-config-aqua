@@ -7,10 +7,10 @@ module.exports = {
 		node: true,
 	},
 	rules: {
-		'no-extra-parens': ['warn', 'all', { nestedBinaryExpressions: false }],
-		'no-template-curly-in-string': 'error',
+		'no-extra-parens': [2, 'all', { nestedBinaryExpressions: false }],
+		'no-template-curly-in-string': 1,
 		'valid-jsdoc': [
-			'warn',
+			2,
 			{
 				requireReturn: false,
 				requireReturnDescription: false,
@@ -26,10 +26,10 @@ module.exports = {
 				},
 			},
 		],
-		'array-callback-return': 'error',
-		'object-shorthand': ['error', 'always'],
+		'array-callback-return': 1,
+		'object-shorthand': [1, 'always'],
 		'prefer-destructuring': [
-			'error',
+			1,
 			{
 				VariableDeclarator: {
 					array: false,
@@ -41,9 +41,9 @@ module.exports = {
 				},
 			},
 		],
-		'prefer-promise-reject-errors': 'error',
+		'prefer-promise-reject-errors': 1,
 		'keyword-spacing': [
-			'error',
+			1,
 			{
 				overrides: {
 					if: { after: true },
