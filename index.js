@@ -139,7 +139,7 @@ const base = {
 	'array-bracket-spacing': [2, 'never', { singleValue: false, objectsInArrays: false, arraysInArrays: false }],
 	'array-element-newline': 0,
 	'block-spacing': [2, 'always'],
-	'brace-style': [2, '2tbs', { allowSingleLine: true }],
+	'brace-style': [2, '1tbs', { allowSingleLine: true }],
 	camelcase: 0,
 	'capitalized-comments': 0,
 	'comma-dangle': [2, 'never'],
