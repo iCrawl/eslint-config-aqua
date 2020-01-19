@@ -42,11 +42,10 @@ Or to `eslintrc.js` or `eslintrc.json`:
 
 # Targets
 
-If you are developing with Javascript consider adding:
+If you are developing with Javascript in the browser consider adding:
 
 ```json
 {
-	"extends": "aqua",
 	"env": {
 		"browser": true
 	}
@@ -61,6 +60,30 @@ or use the platform specific configs for Node.js:
 }
 ```
 
+or Svelte:
+
+```json
+{
+	"extends": "aqua/svelte"
+}
+```
+
+or React:
+
+```json
+{
+	"extends": "aqua/react"
+}
+```
+
+or any other JSX:
+
+```json
+{
+	"extends": "aqua/jsx"
+}
+```
+
 or Vue.js:
 
 ```json
@@ -69,7 +92,7 @@ or Vue.js:
 }
 ```
 
-Using the vue extended config will require you to additionally install `eslint-plugin-vue` and `babel-eslint`
+Using the Vue extended config will require you to additionally install `eslint-plugin-vue` and `babel-eslint`
 
 ```bash
 yarn add -D babel-eslint eslint-plugin-vue
