@@ -22,6 +22,7 @@ module.exports = {
 		}
 	],
 	settings: {
-		'import/code-modules': ['svelte']
+		'import/code-modules': ['svelte'],
+		'svelte3/ignore-styles': attributes => attributes.lang,
 	}
 };
