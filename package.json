@@ -36,8 +36,7 @@
 		"eslint-plugin-react-hooks": "^2.3.0",
 		"eslint-plugin-svelte3": "^2.7.3",
 		"eslint-plugin-vue": "^6.1.2",
-		"prettier": "^1.19.1",
-		"prettier-plugin-svelte": "^0.7.0"
+		"prettier": "^1.19.1"
 	},
 	"peerDependencies": {
 		"babel-eslint": "^10.0.3",
@@ -48,13 +47,38 @@
 		"eslint-plugin-react-hooks": "^2.3.0",
 		"eslint-plugin-svelte3": "^2.7.3",
 		"eslint-plugin-vue": "^6.1.2",
-		"prettier": "^1.19.1",
-		"prettier-plugin-svelte": "^0.7.0"
+		"prettier": "^1.19.1"
+	},
+	"peerDependenciesMeta": {
+		"babel-eslint": {
+			"optional": true
+		},
+		"eslint-config-prettier": {
+			"optional": true
+		},
+		"eslint-plugin-prettier": {
+			"optional": true
+		},
+		"eslint-plugin-react": {
+			"optional": true
+		},
+		"eslint-plugin-react-hooks": {
+			"optional": true
+		},
+		"eslint-plugin-svelte3": {
+			"optional": true
+		},
+		"eslint-plugin-vue": {
+			"optional": true
+		},
+		"prettier": {
+			"optional": true
+		}
 	},
 	"eslintConfig": {
 		"extends": "./prettier/node.js"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=10"
 	}
 }
