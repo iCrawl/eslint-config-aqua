@@ -78,6 +78,9 @@
 	"eslintConfig": {
 		"extends": "./prettier/node.js"
 	},
+	"renovate": {
+		"extends": ["teal"]
+	},
 	"engines": {
 		"node": ">=10"
 	}
