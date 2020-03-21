@@ -1,12 +1,12 @@
 devDependencies:
   eslint: 6.8.0
   eslint-config-prettier: 6.9.0_eslint@6.8.0
-  eslint-plugin-prettier: 3.1.2_eslint@6.8.0+prettier@1.19.1
+  eslint-plugin-prettier: 3.1.2_eslint@6.8.0+prettier@2.0.0
   eslint-plugin-react: 7.18.0_eslint@6.8.0
   eslint-plugin-react-hooks: 2.3.0_eslint@6.8.0
   eslint-plugin-svelte3: 2.7.3_eslint@6.8.0
   eslint-plugin-vue: 6.1.2_eslint@6.8.0
-  prettier: 1.19.1
+  prettier: 2.0.0
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.8.3:
@@ -252,10 +252,10 @@ packages:
       eslint: '>=3.14.1'
     resolution:
       integrity: sha512-k4E14HBtcLv0uqThaI6I/n1LEqROp8XaPu6SO9Z32u5NlGRC07Enu1Bh2KEFw4FNHbekH8yzbIU9kUGxbiGmCA==
-  /eslint-plugin-prettier/3.1.2_eslint@6.8.0+prettier@1.19.1:
+  /eslint-plugin-prettier/3.1.2_eslint@6.8.0+prettier@2.0.0:
     dependencies:
       eslint: 6.8.0
-      prettier: 1.19.1
+      prettier: 2.0.0
       prettier-linter-helpers: 1.0.0
     dev: true
     engines:
@@ -896,13 +896,13 @@ packages:
       node: '>=6.0.0'
     resolution:
       integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
-  /prettier/1.19.1:
+  /prettier/2.0.0:
     dev: true
     engines:
-      node: '>=4'
+      node: '>=10.13.0'
     hasBin: true
     resolution:
-      integrity: sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
+      integrity: sha512-vI55PC+GFLOVtpwr2di1mYhJF36v+kztJov8sx3AmqbfdA+2Dhozxb+3e1hTgoV9lyhnVJFF3Z8GCVeMBOS1bA==
   /progress/2.0.3:
     dev: true
     engines:
@@ -1195,4 +1195,4 @@ specifiers:
   eslint-plugin-react-hooks: ^2.3.0
   eslint-plugin-svelte3: ^2.7.3
   eslint-plugin-vue: ^6.1.2
-  prettier: ^1.19.1
+  prettier: ^2.0.0
