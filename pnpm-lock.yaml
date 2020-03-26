@@ -3,7 +3,7 @@ devDependencies:
   eslint-config-prettier: 6.9.0_eslint@6.8.0
   eslint-plugin-prettier: 3.1.2_eslint@6.8.0+prettier@2.0.0
   eslint-plugin-react: 7.18.0_eslint@6.8.0
-  eslint-plugin-react-hooks: 2.3.0_eslint@6.8.0
+  eslint-plugin-react-hooks: 3.0.0_eslint@6.8.0
   eslint-plugin-svelte3: 2.7.3_eslint@6.8.0
   eslint-plugin-vue: 6.1.2_eslint@6.8.0
   prettier: 2.0.0
@@ -265,7 +265,7 @@ packages:
       prettier: '>= 1.13.0'
     resolution:
       integrity: sha512-GlolCC9y3XZfv3RQfwGew7NnuFDKsfI4lbvRK+PIIo23SFH+LemGs4cKwzAaRa+Mdb+lQO/STaIayno8T5sJJA==
-  /eslint-plugin-react-hooks/2.3.0_eslint@6.8.0:
+  /eslint-plugin-react-hooks/3.0.0_eslint@6.8.0:
     dependencies:
       eslint: 6.8.0
     dev: true
@@ -274,7 +274,7 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
     resolution:
-      integrity: sha512-gLKCa52G4ee7uXzdLiorca7JIQZPPXRAQDXV83J4bUEeUuc5pIEyZYAZ45Xnxe5IuupxEqHS+hUhSLIimK1EMw==
+      integrity: sha512-EjxTHxjLKIBWFgDJdhKKzLh5q+vjTFrqNZX36uIxWS4OfyXe5DawqPj3U5qeJ1ngLwatjzQnmR0Lz0J0YH3kxw==
   /eslint-plugin-react/7.18.0_eslint@6.8.0:
     dependencies:
       array-includes: 3.1.1
@@ -1192,7 +1192,7 @@ specifiers:
   eslint-config-prettier: ^6.9.0
   eslint-plugin-prettier: ^3.1.2
   eslint-plugin-react: ^7.18.0
-  eslint-plugin-react-hooks: ^2.3.0
+  eslint-plugin-react-hooks: ^3.0.0
   eslint-plugin-svelte3: ^2.7.3
   eslint-plugin-vue: ^6.1.2
   prettier: ^2.0.0
