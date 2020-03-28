@@ -24,7 +24,7 @@ module.exports = {
 			},
 		],
 		'react/jsx-equals-spacing': [2, 'always'],
-		'react/jsx-filename-extension': [2, { extension: ['.jsx'] }],
+		'react/jsx-filename-extension': [2, { extensions: ['.jsx'] }],
 		'react/jsx-first-prop-new-line': [2, 'never'],
 		'react/jsx-handler-names': 0,
 		'react/jsx-indent': [2, 'tab'],
