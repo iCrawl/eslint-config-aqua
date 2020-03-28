@@ -3,9 +3,10 @@ const path = require('path');
 module.exports = {
 	parserOptions: {
 		jsx: true,
+		sourceType: 'modules',
 	},
 	extends: [
-		'plugin:react-hooks',
+		'plugin:react-hooks/recommended',
 		'plugin:react/recommended',
 		path.join(__dirname, 'jsx.js'),
 		path.join(__dirname, 'index.js'),
