@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-aqua",
-	"version": "7.2.2",
+	"version": "7.2.3",
 	"description": "ESLint shareable config",
 	"main": "index.js",
 	"author": {
@@ -79,7 +79,9 @@
 		"extends": "./prettier/node.js"
 	},
 	"renovate": {
-		"extends": ["teal"]
+		"extends": [
+			"teal"
+		]
 	},
 	"engines": {
 		"node": ">=10"
