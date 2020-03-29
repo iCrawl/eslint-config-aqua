@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
 	parserOptions: {
 		jsx: true,
-		sourceType: 'modules',
+		sourceType: 'module',
 	},
 	extends: [
 		'plugin:react-hooks/recommended',
