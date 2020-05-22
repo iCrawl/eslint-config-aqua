@@ -15,7 +15,7 @@
 ## Install
 
 ```bash
-yarn add -D eslint-config-aqua
+npm i -D eslint-config-aqua
 ```
 
 ## Usage
@@ -95,7 +95,7 @@ or Vue.js:
 Using the Vue extended config will require you to additionally install `eslint-plugin-vue` and `babel-eslint`
 
 ```bash
-yarn add -D babel-eslint eslint-plugin-vue
+npm i -D babel-eslint eslint-plugin-vue
 ```
 
 ## Contributing
