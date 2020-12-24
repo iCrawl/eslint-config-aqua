@@ -1,8 +1,9 @@
 # Packages
-node_modules/
+node_modules
+**/node_modules
 
 # Log files
-logs/
+logs
 *.log
 npm-debug.log*
 
@@ -11,14 +12,12 @@ pids
 *.pid
 *.seed
 
-# IDE
-.vscode/bookmarks.json
-
-# Test files
-*.bak
-
 # Miscellaneous
 .tmp/
+.github/
 .gitattributes
 .gitignore
-.travis.yml
+.eslintrc.json
+.prettierc.json
+.npmignore
+.npmrc

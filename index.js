@@ -247,10 +247,10 @@ const base = {
 
 module.exports = {
 	parserOptions: {
-		ecmaVersion: 2019,
+		ecmaVersion: 2020,
 	},
 	env: {
 		es6: true,
 	},
-	rules: Object.assign(base, {}),
+	rules: { ...base },
 };

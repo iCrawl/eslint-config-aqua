@@ -1,11 +1,12 @@
 const path = require('path');
 
 module.exports = {
+	extends: ['plugin:vue/recommended', path.join(__dirname, 'index.js')],
 	parser: 'vue-eslint-parser',
 	parserOptions: {
 		parser: 'babel-eslint',
+		sourceType: 'module',
 	},
-	extends: ['plugin:vue/recommended', path.join(__dirname, 'index.js')],
 	env: {
 		browser: true,
 	},

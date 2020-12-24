@@ -32,7 +32,7 @@ Add the ESLint config to your `package.json`:
 }
 ```
 
-Or to `eslintrc.js` or `eslintrc.json`:
+Or `eslintrc.json`:
 
 ```json
 {
@@ -96,6 +96,60 @@ Using the Vue extended config will require you to additionally install `eslint-p
 
 ```bash
 npm i -D babel-eslint eslint-plugin-vue
+```
+
+# Prettier usage
+
+If you want to apply your own `.prettierrc` rules with support for disabling the correct rules, just add `/prettier` before the target name.
+
+Also make sure you install `prettier`, `eslint-plugin-prettier` and `eslint-config-prettier` for this to work.
+
+```bash
+npm i -D prettier eslint-plugin-prettier eslint-config-prettier
+```
+
+```json
+{
+	"extends": "aqua/prettier"
+}
+```
+
+```json
+{
+	"extends": "aqua/prettier/node"
+}
+```
+
+or Svelte:
+
+```json
+{
+	"extends": "aqua/prettier/svelte"
+}
+```
+
+or React:
+
+```json
+{
+	"extends": "aqua/prettier/react"
+}
+```
+
+or any other JSX:
+
+```json
+{
+	"extends": "aqua/prettier/jsx"
+}
+```
+
+or Vue.js:
+
+```json
+{
+	"extends": "aqua/prettier/vue"
+}
 ```
 
 ## Contributing

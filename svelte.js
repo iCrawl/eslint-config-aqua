@@ -5,6 +5,9 @@ module.exports = {
 	parserOptions: {
 		sourceType: 'module',
 	},
+	env: {
+		browser: true,
+	},
 	plugins: ['svelte3'],
 	overrides: [
 		{
