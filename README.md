@@ -1,4 +1,5 @@
 # eslint-config-aqua
+
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html)
 
 <div align="center">
