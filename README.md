@@ -47,6 +47,7 @@ If you are developing with Javascript in the browser consider adding:
 
 ```json
 {
+	"extends": "aqua"
 	"env": {
 		"browser": true
 	}
