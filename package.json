@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-aqua",
-	"version": "8.1.0",
+	"version": "8.1.1",
 	"description": "ESLint shareable config",
 	"main": "index.js",
 	"author": {
@@ -29,13 +29,13 @@
 	],
 	"homepage": "https://github.com/iCrawl/eslint-config-aqua#readme",
 	"devDependencies": {
-		"eslint": "^7.16.0",
-		"eslint-config-prettier": "^8.0.0",
-		"eslint-plugin-prettier": "^3.3.0",
-		"eslint-plugin-react": "^7.21.5",
+		"eslint": "^7.21.0",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-prettier": "^3.3.1",
+		"eslint-plugin-react": "^7.22.0",
 		"eslint-plugin-react-hooks": "^4.2.0",
-		"eslint-plugin-svelte3": "^3.0.0",
-		"eslint-plugin-vue": "^7.3.0",
+		"eslint-plugin-svelte3": "^3.1.2",
+		"eslint-plugin-vue": "^7.7.0",
 		"prettier": "^2.2.1"
 	},
 	"engines": {
