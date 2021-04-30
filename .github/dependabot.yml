@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "15:00"
+    timezone: Europe/Vienna
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.23.0
+  - dependency-name: eslint-config-prettier
+    versions:
+    - 8.0.0
