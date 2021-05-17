@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-	extends: ['plugin:vue/recommended', path.join(__dirname, 'index.js')],
+	extends: ['plugin:vue/vue3-recommended', path.join(__dirname, 'index.js')],
 	parser: 'vue-eslint-parser',
 	parserOptions: {
-		parser: 'babel-eslint',
+		parser: '@babel/eslint-parser',
 		sourceType: 'module',
 	},
 	env: {
@@ -21,5 +21,9 @@ module.exports = {
 			},
 		],
 		'vue/attributes-hyphenation': 0,
+
+		'no-unused-vars': 0,
+		'no-unused-labels': 0,
+		'no-label-var': 0,
 	},
 };

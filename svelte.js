@@ -18,4 +18,9 @@ module.exports = {
 	settings: {
 		'svelte3/ignore-styles': (attributes) => attributes.lang,
 	},
+	rules: {
+		'no-unused-vars': 0,
+		'no-unused-labels': 0,
+		'no-label-var': 0,
+	},
 };
