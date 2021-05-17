@@ -131,7 +131,7 @@ const base = {
 	'brace-style': [2, '1tbs', { allowSingleLine: true }],
 	camelcase: 0,
 	'capitalized-comments': 0,
-	'comma-dangle': [2, 'never'],
+	'comma-dangle': [2, 'always'],
 	'comma-spacing': [2, { before: false, after: true }],
 	'comma-style': [2, 'last'],
 	'computed-property-spacing': [2, 'never'],
