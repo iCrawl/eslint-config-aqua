@@ -30,7 +30,7 @@
 	"homepage": "https://github.com/iCrawl/eslint-config-aqua#readme",
 	"devDependencies": {
 		"@babel/eslint-parser": "^7.14.2",
-		"eslint": "^7.26.0",
+		"eslint": "^8.0.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-prettier": "^4.0.0",
 		"eslint-plugin-react": "^7.23.2",
