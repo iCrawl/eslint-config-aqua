@@ -237,6 +237,7 @@ const base = {
 	'prefer-rest-params': 1,
 	'prefer-spread': 2,
 	'prefer-template': 1,
+	"prefer-object-has-own": 2,
 	'require-yield': 1,
 	'rest-spread-spacing': [2, 'never'],
 	'sort-imports': 0,
@@ -247,7 +248,7 @@ const base = {
 
 module.exports = {
 	parserOptions: {
-		ecmaVersion: 2020,
+		ecmaVersion: 2021,
 	},
 	env: {
 		es6: true,
