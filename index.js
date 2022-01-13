@@ -237,6 +237,7 @@ const base = {
 	'prefer-rest-params': 1,
 	'prefer-spread': 2,
 	'prefer-template': 1,
+	"prefer-object-has-own": 2,
 	'require-yield': 1,
 	'rest-spread-spacing': [2, 'never'],
 	'sort-imports': 0,
