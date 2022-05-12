@@ -40,7 +40,7 @@
 		"prettier": "^2.6.1",
 		"prettier-eslint": "^14.0.1",
 		"prettier-eslint-cli": "^5.0.1",
-		"vue-eslint-parser": "^8.3.0"
+		"vue-eslint-parser": "^9.0.1"
 	},
 	"engines": {
 		"node": ">=10"
